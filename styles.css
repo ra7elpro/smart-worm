@@ -1,0 +1,76 @@
+body {
+    background-image: url('002.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eee6e6;
+    width: 500px;
+    height: 642px;
+    background-image: url('02.png');
+    position: relative;
+}
+
+canvas {
+    background-color:  rgba(128, 218, 224, 0.5);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(44, 37, 105, 0);
+    color: rgb(8, 0, 6);
+    font-size: 34px;
+    display: none;
+}
+
+.overlay p {
+    margin: 0;
+    padding: 20px;
+}
+
+.overlay button {
+    padding: 10px 20px;
+    background: #01632a;
+    border: none;
+    color: rgb(248, 239, 239);
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.overlay button:hover {
+    background: #cc0000;
+}
+
+#startButton {
+    padding: 10px 20px;
+    background: #01632a;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size:38px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#startButton:hover {
+    background: #00cc00;
+}
