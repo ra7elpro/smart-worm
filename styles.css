@@ -14,8 +14,8 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid #eee6e6;
-    width: 500px;
-    height: 642px;
+    width: 400px;
+    height: 550px;
     background-image: url('02.png');
     position: relative;
 }
